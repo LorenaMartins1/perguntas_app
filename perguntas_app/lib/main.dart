@@ -7,9 +7,8 @@ class PerguntasAppState extends State<PerguntasApp> {
 
   void responder() {
     setState(() {
-      if (perguntaSelecionada < 1) {
-        perguntaSelecionada++;
-      }
+      perguntaSelecionada++;
+      
     });
 
     print('Pergunta respondida: $perguntaSelecionada');
@@ -20,6 +19,7 @@ class PerguntasAppState extends State<PerguntasApp> {
     final perguntas = [
       'Qual sua cor favorita?',
       'Qual é seu animal favorito?',
+      'Qual estilo de música voê mais ouve?',
     ];
 
     return MaterialApp(
