@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Resultado extends StatelessWidget {
-  const Resultado({super.key});
+  const Resultado(int pontuacaoTotal, reiniciarQuestionario, {super.key});
 
   @override
   Widget build(BuildContext context) {
