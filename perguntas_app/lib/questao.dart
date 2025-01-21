@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class Questions extends StatelessWidget {
+class Questao extends StatelessWidget {
   final String texto;
 
-  Questions(this.texto);
+  Questao(this.texto);
 
   @override
   Widget build(BuildContext context) {
